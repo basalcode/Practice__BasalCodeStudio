@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MainPage extends Component {
+class Main extends Component {
   render() {
     return (
         <div>
@@ -13,7 +13,7 @@ class MainPage extends Component {
                 </nav>
                 <p>I Do Web, So You Don't Have To Worry About It.</p>
             </header>
-            <section>
+            <main>
                 <article>
                     <h1>Intro</h1>
                     <p>About Intro...</p>
@@ -26,12 +26,12 @@ class MainPage extends Component {
                     <h1>Contact</h1>
                     <p>About Contact</p>
                 </article>
-            </section>
+            </main>
         </div>
     );
   }
 }
 
-export default MainPage;
+export default Main;
 
 
