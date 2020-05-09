@@ -9,7 +9,7 @@ class BlogMain extends Component {
                 <nav>navigation</nav>
             </header>
             <section>
-                <img>image</img>
+                <img />image
                 <p>Introduction of this page</p>
                 <article>Slides for added contents</article>
             </section>
