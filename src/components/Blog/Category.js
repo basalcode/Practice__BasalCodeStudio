@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BlogMain extends Component {
+class Category extends Component {
   render() {
     return (
         <div>
@@ -9,13 +9,18 @@ class BlogMain extends Component {
                 <nav>navigation</nav>
             </header>
             <section>
-                <img />image
                 <p>Introduction of this page</p>
-                <article>Slides for added contents</article>
             </section>
             <main>
                 <article>
-                    A single category information goes here.
+                    <img />
+                    <h1>Content 1</h1>
+                    <p>Preview about this content...</p>
+                </article>
+                <article>
+                    <img />
+                    <h1>Content 2</h1>
+                    <p>Preview about this content...</p>
                 </article>
             </main>
         </div>
@@ -23,4 +28,4 @@ class BlogMain extends Component {
   }
 }
 
-export default BlogMain;
+export default Category;

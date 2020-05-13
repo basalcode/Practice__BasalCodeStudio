@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class BlogPost extends Component {
+class Posts extends Component {
   render() {
     return (
         <div>
@@ -24,4 +24,4 @@ class BlogPost extends Component {
     );
   }
 }
-export default BlogPost;
+export default Posts;

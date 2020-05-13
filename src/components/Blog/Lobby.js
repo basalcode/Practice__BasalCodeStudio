@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BlogCategory extends Component {
+class Lobby extends Component {
   render() {
     return (
         <div>
@@ -9,18 +9,13 @@ class BlogCategory extends Component {
                 <nav>navigation</nav>
             </header>
             <section>
+                <img />image
                 <p>Introduction of this page</p>
+                <article>Slides for added contents</article>
             </section>
             <main>
                 <article>
-                    <img />
-                    <h1>Content 1</h1>
-                    <p>Preview about this content...</p>
-                </article>
-                <article>
-                    <img />
-                    <h1>Content 2</h1>
-                    <p>Preview about this content...</p>
+                    A single category information goes here.
                 </article>
             </main>
         </div>
@@ -28,4 +23,4 @@ class BlogCategory extends Component {
   }
 }
 
-export default BlogCategory;
+export default Lobby;

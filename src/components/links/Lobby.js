@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class LinksMain extends Component {
+class Lobby extends Component {
   render() {
     return (
         <div>
@@ -35,4 +35,4 @@ class LinksMain extends Component {
   }
 }
 
-export default LinksMain;
+export default Lobby;
