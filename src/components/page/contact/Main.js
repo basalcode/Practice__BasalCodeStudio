@@ -8,7 +8,7 @@ class Main extends Component {
                     <a>logo</a>
                     <nav>navigation</nav>
                 </header>
-                <main>
+                <main role="main">
                     <section>
                         <form>
 

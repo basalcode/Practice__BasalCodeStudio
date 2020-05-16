@@ -1,26 +1,33 @@
 import React, { Component } from 'react';
 
-class Category extends Component {
+class Main extends Component {
     render() {
         return (
             <div>
                 <header>
-                    <a>logo</a>
-                    <nav>navigation</nav>
+                    <a>BasalCodeSutio</a>
+                    <nav>
+                        <a>Blog</a>
+                        <a>Works</a>
+                        <a>Links</a>
+                    </nav>
                 </header>
                 <section>
+                    <img />
                     <p>Introduction of this page</p>
                 </section>
-                <main>
+                <main role="main">
                     <article>
+                        <div>categories</div>
                         <img />
                         <h1>Content 1</h1>
-                        <p>Preview about this content...</p>
+                        <p>This Content is...</p>
                     </article>
                     <article>
+                        <div>categories</div>
                         <img />
                         <h1>Content 2</h1>
-                        <p>Preview about this content...</p>
+                        <p>This Content is...</p>
                     </article>
                 </main>
             </div>
@@ -28,4 +35,4 @@ class Category extends Component {
     }
 }
 
-export default Category;
+export default Main;

@@ -4,9 +4,9 @@ class Enterance extends Component {
   render() {
     return (
         <div>
-            <main>
-                <div>Basal Code</div>
-                <img />
+            <main role="main">
+              <div>Basal Code</div>
+              <img />
             </main>
         </div>
     );
