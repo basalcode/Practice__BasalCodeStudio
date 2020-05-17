@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Enterance from './components/main/Enterance';
+import Enterance from './components/page/main/Enterance';
 
 class App extends Component {
   render() {
