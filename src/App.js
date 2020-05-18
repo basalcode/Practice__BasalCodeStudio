@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Enterance from './components/page/main/Enterance';
+import Enterance from './component/page/main/Enterance';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" class="viewportMax">
         <Enterance></Enterance>
       </div>
     );
