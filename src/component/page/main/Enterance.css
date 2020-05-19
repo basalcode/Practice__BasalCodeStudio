@@ -1,33 +1,42 @@
 #enterance {
-    width:100%;
     height:100%;
+    width:100%;
     background-color:peachpuff;
 }
 
-#enterance_title {
-    font-family:georgia;
-    font-size:100px;
-    color:white;
-    position:absolute;
-    top:40%;
-    left:20%;
+.enterance__title-square {
+    
+    width:50%;
+    height:50%;
+    
+    border:1px solid white;
+    
     mix-blend-mode: difference;
 }
 
-main {
-    border:1px solid white;
-    display:initial;
-    height:100%;
-    width:100%;
+.enterance__title {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-20%, -10%);
+
+    font-family:georgia;
+    font-size:7rem;
+    color:white;
+
+    mix-blend-mode: difference;
 }
 
-#enterance-background-color {
+#enterance__main {
+    display:flex;
+}
+
+.enterance__background-color {
     width:50%;
 }
 
-#enterance-background-img {
+.enterance__background-img {
     width:50%;
-
     background-image:url(../../../img/main/Enterance.jpg);
     background-size:cover;
 }

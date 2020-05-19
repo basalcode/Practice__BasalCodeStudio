@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './Enterance.css';
-import enterance_img from '../../../img/main/Enterance.jpg'
+import '../../../component/template/basic.css'
 
 class Enterance extends Component {
   render() {
     return (
-      <div id="enterance">
-        <div id="enterance_title" class="veiwportMax">Basal Code Studio</div>
-        <main role="main">
-          <div id="enterance-background-color"></div>
-          <div id="enterance-background-img">
-            {/* <img src={enterance_img} alt="Enterance Image" /> */}
-          </div>
+      <div id="enterance" className="basic--max-viewport">
+        <div className="enterance__title-square basic--center-alignment"></div>
+        <div className="enterance__title">
+          Basal Code Studio
+        </div>
+        <main role="main" id="enterance__main" className="basic--max-viewport">
+          <div className="enterance__background-color"></div>
+          <div className="enterance__background-img"></div>
         </main>
       </div>
     );
