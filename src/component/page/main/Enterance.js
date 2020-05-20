@@ -6,7 +6,7 @@ class Enterance extends Component {
   render() {
     return (
       <div id="enterance" className="basic--max-viewport">
-        <div className="enterance__title-square basic--center-alignment"></div>
+        <div className="enterance__title-square "></div>
         <div className="enterance__title">
           Basal Code Studio
         </div>

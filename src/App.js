@@ -7,7 +7,7 @@ import Enterance from './component/page/main/Enterance';
 class App extends Component {
   render() {
     return (
-      <div className="App basic--max-viewport">
+      <div id="App" className="basic--max-viewport">
         <Enterance></Enterance>
       </div>
     );
