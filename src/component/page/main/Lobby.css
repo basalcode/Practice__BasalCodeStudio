@@ -1,0 +1,39 @@
+.lobby__header {
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+}
+
+.lobby__header--logo {
+    
+}
+
+.lobby__header--nav {
+    display:flex;
+
+    margin-right:10px;
+}
+
+.lobby__header--nav li {    
+    list-style-type:none;
+}
+
+.lobby__preface {
+
+}
+
+.lobby__preface--image {
+
+}
+
+.lobby__preface--text {
+
+}
+
+#lobby__main {
+
+}
+
+.lobby__content {
+
+}
