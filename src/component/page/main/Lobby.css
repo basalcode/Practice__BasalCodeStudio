@@ -1,33 +1,55 @@
-.lobby__header {
-    display:flex;
-    justify-content: space-between;
+#App {
+    margin:5%;
     border:1px solid black;
 }
 
-.lobby__header--logo {
+#lobby {
+    width:100%;
+}
+
+.lobby__header {
+    display:flex;
+    justify-content: space-between;
+
+    width:100%;
     
+    padding:25px;
+    
+}
+
+.lobby__header--logo {
+    font-family:georgia;
+    font-size:32px;
+
 }
 
 .lobby__header--nav {
     display:flex;
-
-    margin-right:10px;
 }
 
 .lobby__header--nav li {    
     list-style-type:none;
+    margin:auto 10px;
+}
+
+.lobby__header--nav li a {
+    padding:0;
+    
+    border:1px solid black;
+    text-decoration:none;
+    font-size:18px;
 }
 
 .lobby__preface {
+    width:100%;
+    height:80%;
 
-}
-
-.lobby__preface--image {
-
+    background-image:url(../../../img/main/Lobby.jpg);
+    background-size:cover;
 }
 
 .lobby__preface--text {
-
+    
 }
 
 #lobby__main {

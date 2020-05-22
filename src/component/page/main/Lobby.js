@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
+import './Lobby.css';
 
 class Lobby extends Component {
     render() {
         return (
-            <div>
+            <div id="lobby">
                 <header className="lobby__header">
                     <a className="lobby__header--logo">BasalCodeSutio</a>
                     <nav className="lobby__header--nav">
-                        <li><a>Blog</a></li>
-                        <li><a>Works</a></li>
-                        <li><a>Links</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Links</a></li>
                     </nav>
                 </header>
                 <section className="lobby__preface">
-                    <div className="lobby__preface--image"></div>
-                    <p className="lobby__preface--text">I Do Web, So You Don't Have To Worry About It.</p>
+                    <p className="lobby__preface--text">
+                        I Do Web, So You Don't Have To Worry About It.
+                    </p>
                 </section>
                 <main role="main" id="lobby__main">
                     <article className="lobby__content">

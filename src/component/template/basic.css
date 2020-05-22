@@ -4,7 +4,7 @@
 }
 
 .basic--max-viewport {
-    display:block;
+    display:flex;
     margin:0;
     width:100%;
     height:100%;
