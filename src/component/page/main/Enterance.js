@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import './Enterance.css';
 import '../../../component/template/basic.css'
 
-class Enterance extends Component {
+class Enterance extends Component {  
   render() {
     return (
-      <div id="enterance" className="basic--max-viewport">
+      <div id="enterance" className="basic--max-viewport" 
+        onLoad={function(event) {
+          this.props.onLoad('mainLobby');
+        }.bind(this)}>
         <div className="enterance__title-square "></div>
         <div className="enterance__title">
           Basal Code Studio
