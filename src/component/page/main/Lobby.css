@@ -12,8 +12,7 @@
     top:0;
     left:0;
     display:flex;
-    justify-content:space-between;
-    width:100%;
+    width:97%;
     height:3%;
     padding:25px;
 
@@ -27,6 +26,7 @@
 
 .lobby__header--nav {
     display:flex;
+
 }
 
 .lobby__header--nav li {    
@@ -38,6 +38,7 @@
     padding:0;
     
     text-decoration:none;
+    color:black;
     font-size:18px;
 }
 

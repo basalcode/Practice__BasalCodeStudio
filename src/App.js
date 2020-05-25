@@ -17,16 +17,39 @@ class App extends Component {
     switch(this.state.page) {
       case 'mainEnterance':
         pageComponent = <Enterance
-          onLoad={function(nextPage) {
+          onClick={function(nextPage) {
             this.setState({
               page:nextPage
             })
-            console.log(nextPage);
           }.bind(this)}
         ></Enterance>;
         break;
       case 'mainLobby':
         pageComponent = <Lobby></Lobby>;
+        break;
+      case 'blogMain':
+        pageComponent = <blogMain onClick={function(pageName) {
+          this.setState({
+            page:pageName
+          });
+        }.bind(this)}
+        ></blogMain>;
+        break;
+      case 'worksMain':
+        pageComponent = <worksMain onClick={function(pageName) {
+          this.setState({
+            page:pageName
+          });
+        }.bind(this)}
+        ></worksMain>;
+        break;
+      case 'linksMain':
+        pageComponent = <linksMain onClick={function(pageName) {
+          this.setState({
+            page:pageName
+          });
+        }.bind(this)}
+        ></linksMain>
         break;
     }
     return pageComponent;
