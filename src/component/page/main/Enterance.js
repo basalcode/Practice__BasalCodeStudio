@@ -7,7 +7,7 @@ class Enterance extends Component {
   render() {
     return (
       <div id="enterance" className="basic--max-viewport" 
-      onClick={function(event) {
+        onClick={function(event) {
           this.props.onClick('mainLobby');
         }.bind(this)}>
         <div className="enterance__title-square "></div>

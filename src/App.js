@@ -3,6 +3,9 @@ import './App.css';
 import './component/template/basic.css'
 import Enterance from './component/page/main/Enterance';
 import Lobby from './component/page/main/Lobby';
+import {Main as BlogMain} from './component/page/blog/Main';
+import {Main as WorksMain} from './component/page/works/Main';
+import {Main as LinksMain} from './component/page/links/Main';
 
 class App extends Component {
   constructor(props) {
@@ -17,10 +20,10 @@ class App extends Component {
     switch(this.state.page) {
       case 'mainEnterance':
         pageComponent = <Enterance
-          onClick={function(nextPage) {
-            this.setState({
-              page:nextPage
-            })
+            onClick={function(nextPage) {
+              this.setState({
+                page:nextPage
+              })
           }.bind(this)}
         ></Enterance>;
         break;
@@ -28,28 +31,31 @@ class App extends Component {
         pageComponent = <Lobby></Lobby>;
         break;
       case 'blogMain':
-        pageComponent = <blogMain onClick={function(pageName) {
-          this.setState({
-            page:pageName
-          });
+        pageComponent = <BlogMain
+          onClick={function(pageName) {
+            this.setState({
+              page:pageName
+            });
         }.bind(this)}
-        ></blogMain>;
+        ></BlogMain>;
         break;
       case 'worksMain':
-        pageComponent = <worksMain onClick={function(pageName) {
-          this.setState({
-            page:pageName
-          });
+        pageComponent = <WorksMain
+          onClick={function(pageName) {
+            this.setState({
+              page:pageName
+            });
         }.bind(this)}
-        ></worksMain>;
+        ></WorksMain>;
         break;
       case 'linksMain':
-        pageComponent = <linksMain onClick={function(pageName) {
+        pageComponent = <LinksMain
+         onClick={function(pageName) {
           this.setState({
             page:pageName
           });
         }.bind(this)}
-        ></linksMain>
+        ></LinksMain>
         break;
     }
     return pageComponent;
