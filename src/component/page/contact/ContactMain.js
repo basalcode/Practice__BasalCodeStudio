@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class PostEditor extends Component {
-    render() {
-        return (
+class ContactMain extends Component {
+    render() {
+        return (
             <div>
                 <header>
                     <a>logo</a>
@@ -10,17 +10,14 @@ class PostEditor extends Component {
                 </header>
                 <main role="main">
                     <section>
-                    <div></div>
-                    <p></p>
-                    </section>
-                    <section>
-                    <form>
+                        <form>
 
-                    </form>
+                        </form>
                     </section>
                 </main>
             </div>
-        );
+        )
     }
 }
-export default PostEditor;
+
+export default ContactMain;

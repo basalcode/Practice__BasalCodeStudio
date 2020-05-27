@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Main extends Component {
+class WorksMain extends Component {
     render() {
         return (
             <div>
@@ -14,25 +14,29 @@ class Main extends Component {
                 </header>
                 <section>
                     <img />
-                    <p>Introduction of this page</p>
                 </section>
                 <main role="main">
                     <article>
-                        <div>categories</div>
                         <img />
                         <h1>Content 1</h1>
                         <p>This Content is...</p>
                     </article>
                     <article>
-                        <div>categories</div>
+                    <span>category</span>
                         <img />
                         <h1>Content 2</h1>
                         <p>This Content is...</p>
                     </article>
                 </main>
+                <footer>
+                    <h2>email</h2>
+                    <p>basalcode@gmail.com</p>
+                    <h2>github</h2>
+                    <p>https://github.com/basalcode</p>
+                </footer>
             </div>
         );
     }
 }
 
-export default Main;
+export default WorksMain;

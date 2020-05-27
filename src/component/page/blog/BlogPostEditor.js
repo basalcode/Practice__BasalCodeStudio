@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Main extends Component {
-    render() {
-        return (
+class BlogPostEditor extends Component {
+    render() {
+        return (
             <div>
                 <header>
                     <a>logo</a>
@@ -10,14 +10,17 @@ class Main extends Component {
                 </header>
                 <main role="main">
                     <section>
-                        <form>
+                    <div></div>
+                    <p></p>
+                    </section>
+                    <section>
+                    <form>
 
-                        </form>
+                    </form>
                     </section>
                 </main>
             </div>
-        )
+        );
     }
 }
-
-export default Main;
+export default BlogPostEditor;

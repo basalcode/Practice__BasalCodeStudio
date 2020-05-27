@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Category extends Component {
+class BlogCategory extends Component {
     render() {
         return (
             <div>
@@ -28,4 +28,4 @@ class Category extends Component {
     }
 }
 
-export default Category;
+export default BlogCategory;

@@ -3,9 +3,9 @@ import './App.css';
 import './component/template/basic.css'
 import Enterance from './component/page/main/Enterance';
 import Lobby from './component/page/main/Lobby';
-import {Main as BlogMain} from './component/page/blog/Main';
-import {Main as WorksMain} from './component/page/works/Main';
-import {Main as LinksMain} from './component/page/links/Main';
+import BlogMain from './component/page/blog/BlogMain';
+import WorksMain from './component/page/works/WorksMain';
+import LinksMain from './component/page/links/LinksMain';
 
 class App extends Component {
   constructor(props) {
@@ -28,34 +28,22 @@ class App extends Component {
         ></Enterance>;
         break;
       case 'mainLobby':
-        pageComponent = <Lobby></Lobby>;
+        pageComponent = <Lobby
+          onClick={function(pageName){
+            this.setState({
+              page:pageName
+            });
+          }.bind(this)}
+        ></Lobby>;
         break;
       case 'blogMain':
-        pageComponent = <BlogMain
-          onClick={function(pageName) {
-            this.setState({
-              page:pageName
-            });
-        }.bind(this)}
-        ></BlogMain>;
+        pageComponent = <BlogMain></BlogMain>;
         break;
       case 'worksMain':
-        pageComponent = <WorksMain
-          onClick={function(pageName) {
-            this.setState({
-              page:pageName
-            });
-        }.bind(this)}
-        ></WorksMain>;
+        pageComponent = <WorksMain></WorksMain>;
         break;
       case 'linksMain':
-        pageComponent = <LinksMain
-         onClick={function(pageName) {
-          this.setState({
-            page:pageName
-          });
-        }.bind(this)}
-        ></LinksMain>
+        pageComponent = <LinksMain></LinksMain>
         break;
     }
     return pageComponent;
