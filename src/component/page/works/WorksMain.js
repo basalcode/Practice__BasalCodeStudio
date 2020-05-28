@@ -4,14 +4,6 @@ class WorksMain extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <a>BasalCodeSutio</a>
-                    <nav>
-                        <a>Blog</a>
-                        <a>Works</a>
-                        <a>Links</a>
-                    </nav>
-                </header>
                 <section>
                     <img />
                 </section>
@@ -22,7 +14,7 @@ class WorksMain extends Component {
                         <p>This Content is...</p>
                     </article>
                     <article>
-                    <span>category</span>
+                        <span>category</span>
                         <img />
                         <h1>Content 2</h1>
                         <p>This Content is...</p>

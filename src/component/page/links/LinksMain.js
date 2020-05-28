@@ -4,14 +4,6 @@ class LinksMain extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <a>BasalCodeSutio</a>
-                    <nav>
-                        <a>Blog</a>
-                        <a>Works</a>
-                        <a>Links</a>
-                    </nav>
-                </header>
                 <section>
                     <img />
                     <p>Introduction of this page</p>

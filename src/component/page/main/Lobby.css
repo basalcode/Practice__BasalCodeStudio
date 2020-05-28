@@ -2,44 +2,9 @@
     display:flex;
     flex-direction:column;
     width:100%;
-    margin-top:3%;
+    margin-top:6%;
     margin-bottom:3%;
     background-color:peachpuff;
-}
-
-.lobby__header {
-    position:fixed;
-    top:0;
-    left:0;
-    display:flex;
-    width:97%;
-    height:3%;
-    padding:25px;
-
-    background-color:white;
-}
-
-.lobby__header--logo {
-    font-family:georgia;
-    font-size:32px;
-}
-
-.lobby__header--nav {
-    display:flex;
-
-}
-
-.lobby__header--nav li {    
-    list-style-type:none;
-    margin:auto 10px;
-}
-
-.lobby__header--nav li a {
-    padding:0;
-    
-    text-decoration:none;
-    color:black;
-    font-size:18px;
 }
 
 .lobby__preface {

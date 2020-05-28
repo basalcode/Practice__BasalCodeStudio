@@ -4,10 +4,6 @@ class BlogMain extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <a>logo</a>
-                    <nav>navigation</nav>
-                </header>
                 <section>
                     <img />image
                     <p>Introduction of this page</p>

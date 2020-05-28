@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import Header from '../../template/Header';
 
 class ContactMain extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <a>logo</a>
-                    <nav>navigation</nav>
-                </header>
+                <Header
+                    onClick={function(pageName) {
+                        this.props.onClick(pageName);
+                    }.bind(this)}
+                ></Header>
                 <main role="main">
                     <section>
                         <form>
