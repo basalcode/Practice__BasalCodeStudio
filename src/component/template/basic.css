@@ -10,6 +10,10 @@
     height:100%;
 }
 
+.basic--top-margin {
+    margin-top:6%;
+}
+
 .basic--center-alignment {
     position:absolute;
     top:50%;

@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import '../../../component/template/basic.css'
+import React, { Component } from 'react'; 
 import './Enterance.css';
-
 
 class Enterance extends Component {
 

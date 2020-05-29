@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
+import './LinksMain.css';
+import Introduction from '../../template/Introduction';
 
 class LinksMain extends Component {
     render() {
         return (
-            <div>
-                <section>
-                    <img />
-                    <p>Introduction of this page</p>
-                </section>
+            <div id="links-main" className="basic--top-margin">
+                <Introduction page="LinksMain"></Introduction>
                 <main role="main">
                     <article>
                         <div>categories</div>

@@ -7,6 +7,7 @@ import BlogMain from './component/page/blog/BlogMain';
 import WorksMain from './component/page/works/WorksMain';
 import LinksMain from './component/page/links/LinksMain';
 import Header from './component/template/Header';
+import Introduction from './component/template/Introduction';
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class App extends Component {
     }
   }
 
+  /* Call component when it changes. */
   getPage() {
     var pageComponent = null;
     switch(this.state.page) {
@@ -70,6 +72,7 @@ class App extends Component {
 
   render() {
     var headerComponent = null;
+    /* Call Header component */
     if (this.state.page != 'mainEnterance') {
       headerComponent = <Header
           onClick={function(pageName) {
@@ -79,6 +82,10 @@ class App extends Component {
           }.bind(this)}
       ></Header>
     }
+
+    /* Call Introduction component which contains page summary */
+    
+
     return (
       <div id="App" className="basic--max-viewport">
         {headerComponent}

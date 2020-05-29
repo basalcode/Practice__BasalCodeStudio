@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import './BlogMain.css';
+import Introduction from '../../template/Introduction';
 
 class BlogMain extends Component {
     render() {
         return (
-            <div>
-                <section>
-                    <img />image
-                    <p>Introduction of this page</p>
-                    <article>Slides for added contents</article>
-                </section>
+            <div id="blog-main" className="basic--top-margin">
+                <Introduction page="BlogMain"></Introduction>
                 <main role="main">
                     <article>
                         A single category information goes here.
