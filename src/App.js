@@ -7,7 +7,6 @@ import BlogMain from './component/page/blog/BlogMain';
 import WorksMain from './component/page/works/WorksMain';
 import LinksMain from './component/page/links/LinksMain';
 import Header from './component/template/Header';
-import Introduction from './component/template/Introduction';
 
 class App extends Component {
   constructor(props) {

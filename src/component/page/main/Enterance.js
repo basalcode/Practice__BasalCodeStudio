@@ -9,7 +9,7 @@ class Enterance extends Component {
         onClick={function(event) {
           this.props.onClick('mainLobby');
         }.bind(this)}>
-        <div className="enterance__title-square "></div>
+        <div className="enterance__title-square"></div>
         <div className="enterance__title">
           Basal Code Studio
         </div>

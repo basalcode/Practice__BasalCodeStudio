@@ -7,7 +7,7 @@ class Header extends Component {
             <header className="header">
                 <a href="#lobby" className="header--logo" onClick={function(event) {
                     event.preventDefault();
-                    this.props.onClick('Enterance');
+                    this.props.onClick('mainLobby');
                 }.bind(this)}>BasalCodeSutio</a>
                 <nav className="header--nav">
                     <li><a href="#blog" onClick={function(event) {

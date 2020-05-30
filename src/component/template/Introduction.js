@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
+import './Introduction.css';
 
 class Introduction extends Component {
     render() {
         return (
-            <div id="introduction">
-                <section>
-                    <div class="">image</div>
-                    <p class="">Introduction of this page</p>
-                    <article class="">Slides for added contents</article>
-                </section>
-            </div>
+            <section id="introduction">
+                <div class="section__background-image">
+                    <div class="section__title">Title</div>
+                </div>
+                <p class="section__intro">Introduction of this page</p>
+            </section>
         );
     }
 }
