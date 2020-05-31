@@ -5,10 +5,14 @@ class Introduction extends Component {
     render() {
         return (
             <section id="introduction">
-                <div class="section__background-image">
-                    <div class="section__title">Title</div>
+                <div class="introduction__background-image introduction--content-box">
+                    <div class="introduction__title">Title</div>
                 </div>
-                <p class="section__intro">Introduction of this page</p>
+                <div class="introduction__intro-frame introduction--content-box">
+                    <p class="introduction__intro-content">
+                        Introduction of this page
+                    </p>
+                </div>
             </section>
         );
     }

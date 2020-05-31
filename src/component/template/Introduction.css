@@ -2,28 +2,35 @@
     display:flex;
     flex-direction:column;
     width:100%;
-    height:50%;
-    border:1px solid black;
 }
 
-.section__background-image {
-    display:flex;
-    align-items:center;
-    margin:auto;
+.introduction--content-box {
+    margin:40px auto 0px auto;
     width:95%;
-    height:5%;
+}
+
+.introduction__background-image {
+    display:flex;
+    height:50px;
     background-image:url(../../img/blog/BlogMain.jpg);
     background-size:cover;
+    background-attachment:scroll;
 }
 
-.section__title {
-    margin-left:20px;
+.introduction__title {
+    margin:auto;
+    margin-left:30px;
     
     font-family:georgia;
+    font-size:3vmin;
     color:white;
     mix-blend-mode: difference;
 }
 
-.section__intro {
+.introduction__intro-frame {
     border:1px solid black;
+}
+
+.introduction__intro-content {
+    margin:30px;
 }
