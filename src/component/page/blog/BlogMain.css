@@ -1,7 +1,11 @@
 #blog-main {
-    display:block;
-    margin-right:auto;
-    margin-left:auto;
+    
+}
 
-    width:90%;
+#blog-main__main {
+
+}
+
+#blog-main__main--header {
+
 }

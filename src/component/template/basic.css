@@ -20,3 +20,12 @@
     left:50%;
     transform:translate(-50%, -50%);
 }
+
+.basic--page-box {
+    display:flex;
+    flex-direction:column;
+    margin-right:auto;
+    margin-left:auto;
+
+    width:85%;
+}

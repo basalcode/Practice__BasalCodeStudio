@@ -1,12 +1,11 @@
 #introduction {
     display:flex;
     flex-direction:column;
-    width:100%;
 }
 
 .introduction--content-box {
     margin:40px auto 0px auto;
-    width:95%;
+    width:100%;
 }
 
 .introduction__background-image {
@@ -18,7 +17,8 @@
 }
 
 .introduction__title {
-    margin:auto;
+    margin-top:auto;
+    margin-bottom:auto;
     margin-left:30px;
     
     font-family:georgia;
