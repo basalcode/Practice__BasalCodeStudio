@@ -3,9 +3,22 @@
 }
 
 #blog-main__main {
-
+    display:flex;
+    flex-direction:column;
 }
 
 #blog-main__main--header {
 
+}
+
+#blog-main__category-box {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.blog-main__category {
+    border:1px solid black;
+    width:200px;
+    height:200px;
+    margin:20px;
 }

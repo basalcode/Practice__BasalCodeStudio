@@ -8,24 +8,19 @@ class WorksMain extends Component {
             <div id="works-main" className="basic--page-box basic--top-margin">
                 <Introduction page="WorksMain"></Introduction>
                 <main id="works-main__main" role="main">
-                    <article class="">
-                        <img />
-                        <h1>Content 1</h1>
-                        <p>This Content is...</p>
-                    </article>
-                    <article class="">
-                        <span>category</span>
-                        <img />
-                        <h1>Content 2</h1>
-                        <p>This Content is...</p>
-                    </article>
+                    <section id="works-main__content-box">
+                        <article class="works-main__content">
+                            <img />
+                            <h1>Content 1</h1>
+                            <p>This Content is...</p>
+                        </article>
+                        <article class="works-main__content">
+                            <img />
+                            <h1>Content 2</h1>
+                            <p>This Content is...</p>
+                        </article>
+                    </section>
                 </main>
-                <footer id="works-main__footer">
-                    <h2>email</h2>
-                    <p>basalcode@gmail.com</p>
-                    <h2>github</h2>
-                    <p>https://github.com/basalcode</p>
-                </footer>
             </div>
         );
     }

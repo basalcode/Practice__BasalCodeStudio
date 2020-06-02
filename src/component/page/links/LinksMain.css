@@ -1,0 +1,42 @@
+#links-main {
+
+}
+
+#links-main__main {
+
+}
+
+#links-main__content-box {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.links-main__content {
+    display:flex;
+    width:400px;
+    height:100px;
+    margin:40px 20px;
+    border:1px solid black;
+}
+
+.links-main__content-image {
+    border-right:1px solid black;
+    padding:20px;
+}
+
+.links-main__content-description-box {
+    margin-left:20px;
+    padding:20px;
+}
+
+.links-main__content-tag {
+
+}
+
+.links-main__content-name {
+
+}
+
+.links-main__content-description {
+
+}

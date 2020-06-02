@@ -1,0 +1,21 @@
+#works-main {
+
+}
+
+#works-main__main {
+
+}
+
+#works-main__content-box {
+    display:flex;
+    
+    flex-wrap:wrap;
+}
+
+.works-main__content {
+    width:200px;
+    height:200px;
+    margin:40px 20px;
+    padding:10px;
+    border:1px solid black;
+}

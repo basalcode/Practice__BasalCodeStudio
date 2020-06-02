@@ -11,11 +11,14 @@ class BlogMain extends Component {
                 <NewPosts></NewPosts>
                 <main id="blog-main__main" role="main">
                     <h1 id="blog-main__main--header">Categories</h1>
-                    <article class="">
-                        <div class="">
-                            A single category information goes here.
-                        </div>
-                    </article>
+                    <section id="blog-main__category-box">
+                        <article class="blog-main__category">
+                            article1
+                        </article>
+                        <article class="blog-main__category">
+                            article2
+                        </article>
+                    </section>
                 </main>
             </div>
         );
