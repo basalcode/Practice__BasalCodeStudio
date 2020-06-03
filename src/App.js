@@ -83,8 +83,6 @@ class App extends Component {
     }
 
     /* Call Introduction component which contains page summary */
-    
-
     return (
       <div id="App" className="basic--max-viewport">
         {headerComponent}
