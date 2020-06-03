@@ -1,9 +1,15 @@
 #links-main {
-
+    
 }
 
 #links-main__main {
+    display:flex;
+    flex-direction:column;
+    margin-top:40px;
+}
 
+#links-main__main--header {
+    
 }
 
 #links-main__content-box {

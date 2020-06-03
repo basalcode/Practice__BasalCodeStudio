@@ -8,6 +8,7 @@ class LinksMain extends Component {
             <div id="links-main" className="basic--page-box basic--top-margin">
                 <Introduction page="LinksMain"></Introduction>
                 <main id="links-main__main" role="main">
+                    <h1 id="links-main__main--header">Links</h1>
                     <section id="links-main__content-box">
                         <article  class="links-main__content">
                             <div class="links-main__content-image">categories</div>

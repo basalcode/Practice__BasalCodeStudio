@@ -8,7 +8,8 @@ class WorksMain extends Component {
             <div id="works-main" className="basic--page-box basic--top-margin">
                 <Introduction page="WorksMain"></Introduction>
                 <main id="works-main__main" role="main">
-                    <section id="works-main__content-box">
+                    <h1 id="works-main__main--header">Works</h1>
+                    <section id="works-main__content-box">    
                         <article class="works-main__content">
                             <img />
                             <h1>Content 1</h1>
