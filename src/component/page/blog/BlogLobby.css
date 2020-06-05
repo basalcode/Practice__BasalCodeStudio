@@ -1,0 +1,26 @@
+#blog-lobby {
+    display:flex;
+}
+
+#blog-lobby__main {
+    display:flex;
+    flex-direction:column;
+    margin-top:40px;
+}
+
+#blog-lobby__main--header {
+    
+}
+
+#blog-lobby__category-box {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.blog-lobby__category {
+    border:1px solid black;
+    width:200px;
+    height:200px;
+    margin-top:20px;
+    margin-right:20px;
+}
