@@ -9,27 +9,29 @@ class BlogMain extends Component {
     constructor(props) {
         super(props);
         this.state={
-            blogPage:'blogMain'
+            blogPage:'blogLobby'
         }
     }
+
     getPage() {
         var pageComponent = null;
-        switch(this.state.page) {
-            case 'blogMain':
-                pageComponent=<BlogLobby onClick={function(pageName){
+        switch(this.state.blogPage) {
+            case 'blogLobby':
+                pageComponent = <BlogLobby onClick={function(pageName){
                     this.setState({
                         blogPage:pageName
                     });
-                }.bind(this)}></BlogLobby>;
+                }.bind(this)}
+                ></BlogLobby>;
                 break;
             case 'blogCategory':
-                pageComponent=<BlogCategory></BlogCategory>;
+                pageComponent = <BlogCategory></BlogCategory>;
                 break;
             case 'blogPost':
-                pageComponent=<BlogPost></BlogPost>;
+                pageComponent = <BlogPost></BlogPost>;
                 break;
             case 'blogPostEditor':
-                pageComponent=<BlogPostEditor></BlogPostEditor>
+                pageComponent = <BlogPostEditor></BlogPostEditor>
                 break;
         }
         return pageComponent;
