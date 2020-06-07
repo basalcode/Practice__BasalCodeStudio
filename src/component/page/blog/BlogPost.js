@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
+import './BlogPost.css';
 
 class BlogPost extends Component {
     render() {
         return (
-            <div>
-                <header>
-                    <a>logo</a>
-                    <nav>navigation</nav>
-                </header>
+            <div id="blog-post" className="basic--page-box basic--top-margin">
                 <main role="main">
                     <article>
                         <img />

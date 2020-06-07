@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
+import './BlogCategory.css';
+import Introduction from '../../template/Introduction';
 
 class BlogCategory extends Component {
     render() {
         return (
-            <div>
-                <header>
-                    <a>logo</a>
-                    <nav>navigation</nav>
-                </header>
-                <section>
-                    <p>Introduction of this page</p>
-                </section>
+            <div id="blog-category" className="basic--page-box basic--top-margin">
+                <Introduction page="BlogCategory"></Introduction>
                 <main role="main">
                     <article>
                         <img />

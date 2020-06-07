@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './BlogPostEditor.css';
 
 class BlogPostEditor extends Component {
     render() {
         return (
-            <div>
+            <div id="blog-post-editor" className="basic--page-box basic--top-margin">
                 <header>
                     <a>logo</a>
                     <nav>navigation</nav>
