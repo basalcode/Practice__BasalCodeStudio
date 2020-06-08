@@ -16,7 +16,7 @@ class BlogPostEditor extends Component {
                     </section>
                     <section>
                     <form>
-
+                        
                     </form>
                     </section>
                 </main>

@@ -11,56 +11,62 @@ import Header from './component/template/Header';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state={
-      page:'mainEnterance'
+    this.state = {
+      page: 'mainEnterance',
+      blogPage: 'blogLobby'
     }
   }
 
   /* Call component when it changes. */
   getPage() {
-    var pageComponent = null;
-    switch(this.state.page) {
+    let pageComponent = null;
+    switch (this.state.page) {
       case 'mainEnterance':
         pageComponent = <Enterance
-          onClick={function(pageName) {
+          onClick={function (pageName) {
             this.setState({
-              page:pageName
+              page: pageName
             })
           }.bind(this)}
         ></Enterance>;
         break;
       case 'mainLobby':
         pageComponent = <Lobby
-          onClick={function(pageName){
+          onClick={function (pageName) {
             this.setState({
-              page:pageName
+              page: pageName
             });
           }.bind(this)}
         ></Lobby>;
         break;
       case 'blogMain':
         pageComponent = <BlogMain
-          onClick={function(pageName){
+          onClick={function (pageName) {
             this.setState({
-              page:pageName
+              page: pageName
+            });
+          }.bind(this)}
+          onPageChange={function (blogPageName) {
+            this.setState({
+              blogPage: blogPageName
             });
           }.bind(this)}
         ></BlogMain>;
         break;
       case 'worksMain':
         pageComponent = <WorksMain
-          onClick={function(pageName){
+          onClick={function (pageName) {
             this.setState({
-              page:pageName
+              page: pageName
             });
           }.bind(this)}
         ></WorksMain>;
         break;
       case 'linksMain':
         pageComponent = <LinksMain
-          onClick={function(pageName){
+          onClick={function (pageName) {
             this.setState({
-              page:pageName
+              page: pageName
             });
           }.bind(this)}
         ></LinksMain>
@@ -70,16 +76,16 @@ class App extends Component {
   }
 
   render() {
-    var headerComponent = null;
+    let headerComponent = null;
     /* Call Header component */
     if (this.state.page != 'mainEnterance') {
       headerComponent = <Header
-          onClick={function(pageName) {
-              this.setState({
-                page:pageName
-              });
-          }.bind(this)}
-      ></Header>
+        onClick={function (pageName) {
+          this.setState({
+            page: pageName
+          });
+        }.bind(this)}
+      ></Header >
     }
 
     /* Call Introduction component which contains page summary */

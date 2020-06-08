@@ -15,13 +15,14 @@ class BlogMain extends Component {
     }
 
     getPage() {
-        var pageComponent = null;
+        let pageComponent = null;
         switch(this.state.blogPage) {
             case 'blogLobby':
                 pageComponent = <BlogLobby onClick={function(pageName){
                     this.setState({
                         blogPage:pageName
                     });
+                    this.props.onPageChange(pageName);
                 }.bind(this)}
                 ></BlogLobby>;
                 break;
